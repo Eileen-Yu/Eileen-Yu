@@ -12,5 +12,5 @@
 - ⚡ Fun fact: ...
  -->
 
-<img align="left"  width="480"  src="https://github-readme-stats.vercel.app/api?username=Eileen-Yu&show_icons=true&theme=gotham" alt="abhisheknaiidu" />
+<img align="left"  width="400"  src="https://github-readme-stats.vercel.app/api?username=Eileen-Yu&show_icons=true&theme=gotham" alt="abhisheknaiidu" />
 <img align="right" src="/github-metrics.svg" alt="metrics" width="460" height="400" />
