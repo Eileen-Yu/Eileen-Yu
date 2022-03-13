@@ -1,3 +1,5 @@
+
+<img align="right" src="/github-metrics.svg" alt="metrics" width="380" height="320" />
 ### Hi I'm Eileen 👋
 
 - 🔭 I’m currently a CS student @Boston.
@@ -13,4 +15,4 @@
  -->
 
 <img align="left"  width="350"  src="https://github-readme-stats.vercel.app/api?username=Eileen-Yu&show_icons=true&theme=gotham" alt="abhisheknaiidu" />
-<img align="right" src="/github-metrics.svg" alt="metrics" width="380" height="320" />
+
