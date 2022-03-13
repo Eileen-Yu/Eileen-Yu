@@ -7,7 +7,7 @@
 - 👾 Usually, I write c++ around linux kernel and network
 - 🤯 Somtimes, I do nodejs stuff by typescript
 - 🤔 I’m learning Kubernetes these days...
-- 🥺 Recently, I begin my contribution to gitlab
+- 😉 Recently, I begin my contribution to gitlab
 
 <!-- - 📫 How to reach me: 
 - 😄 Pronouns: ...
