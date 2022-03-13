@@ -13,4 +13,4 @@
  -->
 
 <img align="left"  width="350"  src="https://github-readme-stats.vercel.app/api?username=Eileen-Yu&show_icons=true&theme=gotham" alt="abhisheknaiidu" />
-<img align="right" src="/github-metrics.svg" alt="metrics" width="460" height="400" />
+<img align="right" src="/github-metrics.svg" alt="metrics" width="360" height="300" />
