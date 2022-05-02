@@ -1,0 +1,30 @@
+on:
+  push:
+    branches:
+      - cv
+jobs:
+  cv-job:
+    runs-on: ubuntu-latest
+    name: Create cover letter
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: cv
+      - name: Move to cv directory
+        id: move
+        run: cd ${GITHUB_WORKSPACE}/cv
+      - name: Build Latex image
+        id: build
+        run: docker build -f ${GITHUB_WORKSPACE}/cv/Dockerfile -t latex-compiler .
+      - name: Create cover letter
+        id: compile
+        run: docker run --rm -v ${GITHUB_WORKSPACE}/cv:/data latex-compiler xelatex resume.tex
+      - name: Check output
+        id: verify
+        run: |
+          ls ${GITHUB_WORKSPACE}/cv/
+          stat ${GITHUB_WORKSPACE}/cv/resume.pdf
+      - uses: actions/upload-artifact@v2
+        with:
+          name: eileen_cv
+          path: ${{ github.workspace }}/cv/resume.pdf
