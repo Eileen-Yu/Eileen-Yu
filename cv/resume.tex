@@ -5,68 +5,101 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{Tony Jin}
+\name{Eileen YU}
 
 \basicInfo{
-  \email{kavinjsir@gmail.com} \textperiodcentered\ 
-  \phone{(+1)617-870-9580} \textperiodcentered\ 
-  \github[Kavinjsir]{https://github.com/Kavinjsir} \textperiodcentered\
-  \linkedin[Tianyi Jin]{https://www.linkedin.com/in/tianyi-j-84b223146/}}
+  \email{eileenylj@gmail.com} \textperiodcentered\ 
+  \phone{(+1)617-870-9578} \textperiodcentered\ 
+  \github[Eileen-Yu]{https://github.com/Eileen-Yu} \textperiodcentered\
+  \linkedin[Eileen]{https://www.linkedin.com/in/eileen-y-a79a5518b/}}
 
 \section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{Boston University (BU)}, Boston, United States}{2021 -- Present}
-\textit{Master student} in Computer Science (CS), concentrate on network, expected May 2023
-\datedsubsection{\textbf{Shanghai Jiao Tong University (SJTU)}, Shanghai, China}{2014 -- 2018}
-\textit{B.S.} in Software Engineering (SE)
+\datedsubsection{\textbf{Boston University}, Boston, United States}{2021 -- Present}
+\textit{Master student} in Computer Science (CS), expected May 2023
+GPA: 3.85 / 4.0
+\datedsubsection{\textbf{Shanghai Jiao Tong University}, Shanghai, China}{2017 -- 2021}
+\textit{B.S.} in Computational Communication
+GPA: 3.9 / 4.0
 
 \section{\faCogs\ Skills}
 \begin{itemize}[parsep=0.5ex]
-  \item Programming Languages: TypeScript, Go, C++, Java, Python
-  \item Infra Stacks: Kubernetes, Prometheus, Grafana, AWS, Terraform
-  \item Dev Stacks: NodeJS, ReactJS, Webpack
+  \item Programming Languages: C++, Python, TypeScript
+  \item Infra Stacks: Kubernetes, Prometheus, Grafana, AWS
 \end{itemize}
 
-\section{\faUsers\ Working Experience}
-\datedsubsection{\textbf{Second Spectrum} California, America}{2019 -- 2021}
-\role{DevOps Engineer}{Infra Team}
-Developed an incident management system company wide.
+\section{\faUsers\ Project Experience}
+\datedsubsection{\textbf{MBTA Chatbot} 
+Created a chatbot on Slack to feedback real-time MBTA shedule on various queries.
 \begin{itemize}
-  \item Implemented a telemetry system to efficiently track metrics(resource usage, logs and tracing).
-  \item Setup the alerting system to promote the efficiency and accuracy of emergency response.
-  \item Built monitoring dashboards to easily check resources, clusters and app status.
+  \item Desigend and implemented a RESTful API with C++ dependencies Drogon and libcurl, managed with CMake.
+  \item Setup a Slack client with Python script, applied virtual env for dependency installation.  
+  \item Built a Docker Image to easily deploy in multiple platforms(MacOS, Windows, Unix, etc).
+  \item Containerized the application in Kubernetes for scalability and robustness. 
 \end{itemize}
 
-Cost Saving
+\datedsubsection{\textbf{Package Hunter} 
+Contributed to GitLab Package Hunter with more features and deployed it in a Cloud Native env.
 \begin{itemize}
-  \item Built the alert and dashboard to monitor apps that are not necessarily taking much resources.
-  \item Implemented a scheduled worker to dynamically rotating AWS Aurora RDS DB Classes based on DB utilization.
-  \item Dynamically allocate resources for apps with integration of K8s Hpa and AWS Cluster Autoscaler.
-\end{itemize}
+  \item Added a new feature to clean up the outdated result to avoid memory leak.
+  \item Migrated the whole system from Docker to Kubernetes, improved scalability by DaemonSet.
+  \item Designed and implemented a Kubernetes middleware embedded in expressJS server.
+  \item Created a Kubernetes operator to dynamically schedule jobs.
+  \item Sped up data transfer through streaming and reduced duplications by K8s PV/PVC. 
 
-Boost Up Deployment Efficiency
+\datedsubsection{\textbf{MIPS Simulator} 
+Wrote a program to simulate MIPS processor including instruction translations, cache memory and pipeline.
 \begin{itemize}
-  \item Standardized operations on AWS products based on IaC tools to safely and efficently build, update and provision infra.
-  \item Improved the deployment platform to simplify operations on launching and terminating apps and speed up deployment process.
-  \item Designed Dockerfile templates for different code base to improve building efficiency.
-\end{itemize}
+  \item Impelemented a MIPS instruction interpreter to decode R-Type and I-Type codes.
+  \item Simulated main memory and implemented a fully associative cache. 
+  \item Conducted instructions with the integration of the pipeline and the interpreter \& cache.  
+\end{itemize}end{itemize}
 
-\datedsubsection{\textbf{Second Spectrum} California, America}{2018 -- 2019}
-\role{Full Stack Engineer}{App Team}
-Developed and maintained a number web services
-\begin{itemize}
-  \item Created a web service of video players to match NBA video chunks with moving 2D dots frames.
-  \item Craeted a dashboard to dynamically display real-time video transcoding status with ReactJS.
-  \item Evaluated and upgraded code with reliable dev-stack, improving code readability and maintainability.
-\end{itemize}
 
-\datedsubsection{\textbf{Morgan Stanley} Shanghai, China}{Jun 2018 -- Sep 2018}
-\role{Technology Intern}{Fin Tech}
-Built a clearing system for Sydney Futures Exchange(SFE)
-\begin{itemize}
-  \item Implemented the upstream component in the clearing system with high level security.
-  \item Implemented a message queue system to safely and flexibly transform and route data.
-  \item Conduct unit tests of a 90\% coverage and integration test to run smoothly on staging.
-\end{itemize}
+
+
+
+%%\section{\faUsers\ Project Experience}
+%%\datedsubsection{\textbf{Second Spectrum} California, America}{2019 -- 2021}
+%%\role{DevOps Engineer}{Infra Team}
+%%Developed an incident management system company wide.
+%%\begin{itemize}
+%%  \item Implemented a telemetry system to efficiently track metrics(resource usage, logs and tracing).
+%%  \item Setup the alerting system to promote the efficiency and accuracy of emergency response.
+%%  \item Built Dockerfile templates for availability in multiple platforms (MacOS, Windows, Unix, etc). 
+%%\end{itemize}
+%%
+%%Cost Saving
+%%\begin{itemize}
+%%  \item Built the alert and dashboard to monitor apps that are not necessarily taking much resources.
+%%  \item Implemented a scheduled worker to dynamically rotating AWS Aurora RDS DB Classes based on DB utilization.
+%%  \item Dynamically allocate resources for apps with integration of K8s Hpa and AWS Cluster Autoscaler.
+%%\end{itemize}
+%%
+%%Boost Up Deployment Efficiency
+%%\begin{itemize}
+%%  \item Standardized operations on AWS products based on IaC tools to safely and efficently build, update and provision infra.
+%%  \item Improved the deployment platform to simplify operations on launching and terminating apps and speed up deployment process.
+%%  \item Designed Dockerfile templates for different code base to improve building efficiency.
+%%\end{itemize}
+%%
+%%\datedsubsection{\textbf{Second Spectrum} California, America}{2018 -- 2019}
+%%\role{Full Stack Engineer}{App Team}
+%%Developed and maintained a number web services
+%%\begin{itemize}
+%%  \item Created a web service of video players to match NBA video chunks with moving 2D dots frames.
+%%  \item Craeted a dashboard to dynamically display real-time video transcoding status with ReactJS.
+%%  \item Evaluated and upgraded code with reliable dev-stack, improving code readability and maintainability.
+%%\end{itemize}
+%%
+%%\datedsubsection{\textbf{Morgan Stanley} Shanghai, China}{Jun 2018 -- Sep 2018}
+%%\role{Technology Intern}{Fin Tech}
+%%Built a clearing system for Sydney Futures Exchange(SFE)
+%%\begin{itemize}
+%%  \item Implemented the upstream component in the clearing system with high level security.
+%%  \item Implemented a message queue system to safely and flexibly transform and route data.
+%%  \item Conduct unit tests of a 90\% coverage and integration test to run smoothly on staging.
+%%\end{itemize}
+
 
 % Reference Test
 %\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
