@@ -14,30 +14,21 @@
   \linkedin[Eileen]{https://www.linkedin.com/in/eileen-y-a79a5518b/}}
 
 \section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{Boston University}, Boston, United States}{2021 -- Present}
-\textit{Master student} in Computer Science (CS), expected May 2023
-GPA: 3.85 / 4.0
-\datedsubsection{\textbf{Shanghai Jiao Tong University}, Shanghai, China}{2017 -- 2021}
+\datedsubsection{\textbf{Boston University}, Boston }{2021 -- Present}
+\textit{Master student} in Computer Science, expected May 2023
+\textit{GPA: 3.9 / 4.0}
+\datedsubsection{\textbf{Shanghai Jiao Tong University}, Shanghai }{2017 -- 2021}
 \textit{B.S.} in Computational Communication
-GPA: 3.9 / 4.0
-
+\textit{GPA: 3.9 / 4.0}
 \section{\faCogs\ Skills}
 \begin{itemize}[parsep=0.5ex]
   \item Programming Languages: C++, Python, TypeScript
-  \item Infra Stacks: Kubernetes, Prometheus, Grafana, AWS
+  \item Dev Stacks: CMake, Node.js, Docker, Kubernetes, Grafana, Git, Linux Shell
 \end{itemize}
 
-\section{\faUsers\ Project Experience}
-\datedsubsection{\textbf{MBTA Chatbot} 
-Created a chatbot on Slack to feedback real-time MBTA shedule on various queries.
-\begin{itemize}
-  \item Desigend and implemented a RESTful API with C++ dependencies Drogon and libcurl, managed with CMake.
-  \item Setup a Slack client with Python script, applied virtual env for dependency installation.  
-  \item Built a Docker Image to easily deploy in multiple platforms(MacOS, Windows, Unix, etc).
-  \item Containerized the application in Kubernetes for scalability and robustness. 
-\end{itemize}
 
-\datedsubsection{\textbf{Package Hunter} 
+\section{\faUsers\ Open Source Contribution}
+\datedsubsection{\textbf{Package Hunter}} {March 2022 -- Present}
 Contributed to GitLab Package Hunter with more features and deployed it in a Cloud Native env.
 \begin{itemize}
   \item Added a new feature to clean up the outdated result to avoid memory leak.
@@ -45,14 +36,57 @@ Contributed to GitLab Package Hunter with more features and deployed it in a Clo
   \item Designed and implemented a Kubernetes middleware embedded in expressJS server.
   \item Created a Kubernetes operator to dynamically schedule jobs.
   \item Sped up data transfer through streaming and reduced duplications by K8s PV/PVC. 
+\end{itemize}
 
-\datedsubsection{\textbf{MIPS Simulator} 
+
+\section{\faUsers\ Project Experience}
+\datedsubsection{\textbf{MIPS Simulator}} {Feb 2022 -- May 2022}
 Wrote a program to simulate MIPS processor including instruction translations, cache memory and pipeline.
 \begin{itemize}
   \item Impelemented a MIPS instruction interpreter to decode R-Type and I-Type codes.
   \item Simulated main memory and implemented a fully associative cache. 
-  \item Conducted instructions with the integration of the pipeline and the interpreter \& cache.  
-\end{itemize}end{itemize}
+  \item Executed instructions with the integration of the pipeline and the interpreter \& cache.  
+\end{itemize}
+
+\datedsubsection{\textbf{VPN Tunneling}} {Feb 2022 -- Mar 2022}
+Built a VPN tunneling via a TUN network interface.
+\begin{itemize}
+  \item Created and congfigured a TUN interface and a VPN server with Python.
+  \item Wrapped the data from the TUN into the UDP payload field of a new IP packet; setup IP forwarding.
+  \item Monitored the TUN and socket file descriptor with Linux kernal system call to check data flow.
+\end{itemize}
+
+\datedsubsection{\textbf{MBTA Chatbot}}{Sept 2021 -- Nov 2021}
+Created a chatbot on Slack to feedback real-time MBTA shedule on various queries.
+\begin{itemize}
+  \item Desigend a RESTful API with C++ dependencies Drogon and libcurl, managed with CMake.
+  \item Setup a Slack client with Python script, applied virtual env for dependency installation.  
+  \item Built a Docker Image to easily deploy in multiple platforms(MacOS, Windows, Unix, etc).
+  \item Containerized the application in Kubernetes for scalability and robustness. 
+\end{itemize}
+
+\datedsubsection{\textbf{3D Animation}}{June 2020 -- August 2020}
+Created a 3D model transformer by OpenGL.
+\begin{itemize}
+  \item Built a scene with Blender, and added texture coordinates.
+  \item Constructed a sphere with 10,000 triangle pieces, and added texture with dynamic lighting reflection from various perspectives with Blinn-Phong model.
+  \item Reconstructed the model to become an aeroplane and designed a partical system to present flying effects.
+  \item Decomposed the pieces for rendering the animation effect of exploding.  
+\end{itemize}
+
+
+
+
+%%\datedsubsection{\textbf{Data Analyst Intern}} {Oct 2020 -- Jan 2021}
+%%
+%%\begin{itemize}
+%%  \item Analyzed backstage data with Python to discover various usage patterns of customers; Figured out customers’ pain points and anticipated their needs; Summarized the problem based on the data and output the AWS product optimization plan.
+%%  \item Cleaned 1.5 million raw data from multiple resources; Removed irrelevant items, normalized and tokenized these items.
+%%  \item Loaded data samples to find the relationship between variables and designed comprehensive business metrics to get different corporations’ preference; Analyzed the dataset on RDS using SQL statements to obtain the correlation.
+%%  \item Categorized 20,000 feedback data of a specific product and found the most significant ones: Extracted feature matrix for texture data; Applied various statistical models and compared training results to get the best classification result.
+%%
+%%
+%%\end{itemize}
 
 
 
