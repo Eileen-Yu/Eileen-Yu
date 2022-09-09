@@ -46,7 +46,12 @@ The project aims to bring Package Hunter, the malicious dependency detecting too
 
 Special thanks to my mentors! Dennis is my direct mentor who supported me daily over the project developing. Ethan manages the secure team that keeps track of our progress and give much technical&non-technical helps. Appreciate their kindness and guidance to bring me the success of the project.
 
-### Proof of Manifest
+### Appendix
+
+#### Design
+![design](https://user-images.githubusercontent.com/48944635/189432834-7b2a2dee-2a3c-4e2b-9fc6-bf9702af0123.png)
+
+#### Proof of Manifest
 ![demo](https://user-images.githubusercontent.com/48944635/189431544-b8fc6b7f-d057-42d1-9b3d-fa4f09bf68db.png)
 
 
