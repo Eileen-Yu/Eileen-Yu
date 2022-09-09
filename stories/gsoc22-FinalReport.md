@@ -20,8 +20,8 @@ The project aims to bring Package Hunter, the malicious dependency detecting too
 #### Package-Hunter
 - Phase 0: [Optimize memory by recycling finished tasks](https://gitlab.com/gitlab-org/security-products/package-hunter/-/merge_requests/31)
 - Phase 1:
-  - 1.1 [Code Refact: Make product extensible and backward-compatible](Refactor Routes)
-  - 1.2 [Feature: Setup connection between Package-hunter and Falco](feat: Add route to receive events from sidekick)
+  - 1.1 [Code Refact: Make product extensible and backward-compatible](https://gitlab.com/gitlab-org/security-products/package-hunter/-/merge_requests/41)
+  - 1.2 [Feature: Setup connection between Package-hunter and Falco](https://gitlab.com/gitlab-org/security-products/package-hunter/-/merge_requests/43)
 - Phase 2:
   - 2.1 [Feature: Initalize K8s Job Scheduling](https://gitlab.com/gitlab-org/security-products/package-hunter/-/merge_requests/48)
   - 2.2 [Feature: Recycling & Status Management](https://gitlab.com/gitlab-org/security-products/package-hunter/-/merge_requests/52)
@@ -34,7 +34,7 @@ The project aims to bring Package Hunter, the malicious dependency detecting too
   - [Mount Configuration through K8s Secret](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=041008050b419feac011d4e1ee45613a7cc5c5d0)
   - [Add Scripts to Simplify Configuration](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=d319ebf13fdc61492fa51aa9d1c9e44391a4d3d9)
 3. Alerts Collection
-  - [Introduce Falco-sidekick to Aggregate Alerts](feat: Introduce sidekick to aggregate events)
+  - [Introduce Falco-sidekick to Aggregate Alerts](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=f5c4285b2dbf00b4727376886bdcfc704d447e05)
   - [Configure Sidekick Webhook](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=3cbcebd61a69efe81b9fd00455fd526604c47f07)
   - [Documentation](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=67d030ac86f5098fd7a40ac594977f40bbeb152c)
 4. [Package-hunter K8s Authorization and Authentication](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=9c407a3c4faff197e89bb13df4b5fb472dc3e527)
