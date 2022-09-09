@@ -30,13 +30,13 @@ The project aims to bring Package Hunter, the malicious dependency detecting too
 #### Operator
 1. [Migrate Falco to K8s DaemonSet](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=9a7538ac5097e10a24784f32156816b3f9011629)
 2. Secret Provisioning
-  - [Enable Secret Auto-generation and Installation](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=367d94508fb99a90433cdc307b609a9c3e5cc5b4)
-  - [Mount Configuration through K8s Secret](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=041008050b419feac011d4e1ee45613a7cc5c5d0)
-  - [Add Scripts to Simplify Configuration](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=d319ebf13fdc61492fa51aa9d1c9e44391a4d3d9)
+    - [Enable Secret Auto-generation and Installation](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=367d94508fb99a90433cdc307b609a9c3e5cc5b4)
+    - [Mount Configuration through K8s Secret](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=041008050b419feac011d4e1ee45613a7cc5c5d0)
+    - [Add Scripts to Simplify Configuration](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=d319ebf13fdc61492fa51aa9d1c9e44391a4d3d9)
 3. Alerts Collection
-  - [Introduce Falco-sidekick to Aggregate Alerts](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=f5c4285b2dbf00b4727376886bdcfc704d447e05)
-  - [Configure Sidekick Webhook](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=3cbcebd61a69efe81b9fd00455fd526604c47f07)
-  - [Documentation](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=67d030ac86f5098fd7a40ac594977f40bbeb152c)
+    - [Introduce Falco-sidekick to Aggregate Alerts](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=f5c4285b2dbf00b4727376886bdcfc704d447e05)
+    - [Configure Sidekick Webhook](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=3cbcebd61a69efe81b9fd00455fd526604c47f07)
+    - [Documentation](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=67d030ac86f5098fd7a40ac594977f40bbeb152c)
 4. [Package-hunter K8s Authorization and Authentication](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration/-/merge_requests/9/diffs?commit_id=9c407a3c4faff197e89bb13df4b5fb472dc3e527)
 
 ### Mentors
