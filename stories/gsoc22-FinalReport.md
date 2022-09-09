@@ -8,7 +8,9 @@ The project aims to bring Package Hunter, the malicious dependency detecting too
 
 ### Intro
 `ORIGIN`: [Gitlab-GSoC-2022-Project](https://gitlab.com/gitlab-com/marketing/community-relations/contributor-program/gsoc-2022/-/issues/2)
+
 `STACK`: Kubernetes, Node.JS, Helm, GKE, Falco, GRPC
+
 `DELIVERY`:
   - [Package-Hunter](https://gitlab.com/gitlab-org/security-products/package-hunter)
   - [Package-Hunter-Operator](https://gitlab.com/gitlab-com/gl-security/security-research/package-hunter-runner-integration)
