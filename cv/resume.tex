@@ -16,28 +16,30 @@
 \section{\faGraduationCap\ Education}
 \datedsubsection{\textbf{Boston University}, Boston }{2021 -- Present}
 \textit{Master student} in Computer Science, expected May 2023
-\textit{GPA: 3.9 / 4.0}
+\textit{GPA: 4.0 / 4.0}
 \datedsubsection{\textbf{Shanghai Jiao Tong University}, Shanghai }{2017 -- 2021}
-\textit{B.S.} in Computational Communication
+\textit{B.S.} in Communication
 \textit{GPA: 3.9 / 4.0}
 \section{\faCogs\ Skills}
 \begin{itemize}[parsep=0.5ex]
-  \item Programming Languages: C++, Python, TypeScript
-  \item Dev Stacks: CMake, Node.js, Docker, Kubernetes, Grafana, Git, Linux Shell
+  \item Programming Languages: Go, C++, Linux Shell, TypeScript, Python
+  \item Cloud Native Stacks: Kubernetes, Helm, Google Cloud
+  \item Cloud Security: Prometheus, Grafana, Falco, Kyverno
+  \item CI/CD: GitLab-CI, Github-Action, Jenkins
+  \item Web Dev: Nginx, Express.js, ReactJS, Three.js
 \end{itemize}
 
 
 \section{\faUsers\ Open Source Contribution}
-\datedsubsection{\textbf{Package Hunter}} {March 2022 -- Present}
-Contributed to GitLab Package Hunter with more features and deployed it in a Cloud Native env.
+\datedsubsection{\textbf{Package Hunter - GitLab(GSoC 2022)}} {March 2022 -- Present}
+Contributed to GitLab security program on Package Hunter: A Malicious Dependencies Monitoring Tool.
 \begin{itemize}
-  \item Added a new feature to clean up the outdated result to avoid memory leak.
   \item Migrated the whole system from Docker to Kubernetes, improved scalability by DaemonSet.
-  \item Designed and implemented a Kubernetes middleware embedded in expressJS server.
-  \item Created a Kubernetes operator to dynamically schedule jobs.
+  \item Extended and decoupled the whole systems into individual components of Kubernetes resources.
+  \item Designed and implemented new APIs for in-cluster communication, improved process efficiency.
+  \item Extended the main server as a Kubernetes operator to flexibly schedule resources.
   \item Sped up data transfer through streaming and reduced duplications by K8s PV/PVC. 
 \end{itemize}
-
 
 \section{\faUsers\ Project Experience}
 \datedsubsection{\textbf{MIPS Simulator}} {Feb 2022 -- May 2022}
@@ -48,30 +50,21 @@ Wrote a program to simulate MIPS processor including instruction translations, c
   \item Executed instructions with the integration of the pipeline and the interpreter \& cache.  
 \end{itemize}
 
-\datedsubsection{\textbf{VPN Tunneling}} {Feb 2022 -- Mar 2022}
-Built a VPN tunneling via a TUN network interface.
-\begin{itemize}
-  \item Created and congfigured a TUN interface and a VPN server with Python.
-  \item Wrapped the data from the TUN into the UDP payload field of a new IP packet; setup IP forwarding.
-  \item Monitored the TUN and socket file descriptor with Linux kernal system call to check data flow.
-\end{itemize}
-
 \datedsubsection{\textbf{MBTA Chatbot}}{Sept 2021 -- Nov 2021}
-Created a chatbot on Slack to feedback real-time MBTA shedule on various queries.
+Implemented a ChatOps system to fetch live MBTA shedule on various queries.
 \begin{itemize}
-  \item Desigend a RESTful API with C++ dependencies Drogon and libcurl, managed with CMake.
-  \item Setup a Slack client with Python script, applied virtual env for dependency installation.  
-  \item Built a Docker Image to easily deploy in multiple platforms(MacOS, Windows, Unix, etc).
+  \item Wrote a backend server in C++ to provide data by plentiful queries.
+  \item Implemented a chatbot to support prompt/on-schedule notification based on multiple user requests.  
   \item Containerized the application in Kubernetes for scalability and robustness. 
 \end{itemize}
 
-\datedsubsection{\textbf{3D Animation}}{June 2020 -- August 2020}
-Created a 3D model transformer by OpenGL.
+\section{\faUsers\ Working Experience}
+\datedsubsection{\textbf{Data Analyst Intern - AWS}} {Aug 2020 -- Oct 2020}
+Analyzed backstage data with Python to discover various usage patterns of customers.
 \begin{itemize}
-  \item Built a scene with Blender, and added texture coordinates.
-  \item Constructed a sphere with 10,000 triangle pieces, and added texture with dynamic lighting reflection from various perspectives with Blinn-Phong model.
-  \item Reconstructed the model to become an aeroplane and designed a partical system to present flying effects.
-  \item Decomposed the pieces for rendering the animation effect of exploding.  
+  % \item Cleaned 1.5 million raw data from multiple resources.
+  \item Loaded data samples to find the relationship between variables; Analyzed the dataset on RDS using SQL statements to obtain the correlation.
+  \item Categorized 20,000 feedback data of a specific product; Extracted feature matrix for texture data; Applied various statistical models and compared training results.
 \end{itemize}
 
 
