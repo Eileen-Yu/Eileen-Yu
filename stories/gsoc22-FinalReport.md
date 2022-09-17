@@ -49,7 +49,10 @@ Special thanks to my mentors! Dennis is my direct mentor who supported me daily 
 ### Appendix
 
 #### Design
-![design](https://user-images.githubusercontent.com/48944635/189432834-7b2a2dee-2a3c-4e2b-9fc6-bf9702af0123.png)
+![design](https://user-images.githubusercontent.com/48944635/190844177-9d3498da-cad2-41ec-8115-ca810d3a578e.png)
+
+#### Future Work
+![future work](https://user-images.githubusercontent.com/48944635/190844226-c916cc72-fc52-4870-8174-6e2c9db3b811.png)
 
 #### Proof of Manifest
 ![demo](https://user-images.githubusercontent.com/48944635/189431544-b8fc6b7f-d057-42d1-9b3d-fa4f09bf68db.png)
