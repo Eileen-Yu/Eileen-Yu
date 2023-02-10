@@ -2,12 +2,12 @@
 
 ### Hi I'm Eileen 👋
 
-- 🔭 I’m currently a CS student @Boston.
+- 🔭 I’m currently a MSCS student @Boston.
 - 🌱 I'm insterested in Cloud computing.
 - 👾 Usually, I write c++ around linux kernel and network
 - 🤯 Somtimes, I do nodejs stuff by typescript
 - 🤔 I’m learning Kubernetes these days...
-- 😉 Recently, I begin my contribution to gitlab and kyverno
+- 😉 Recently, I begin my contribution to kubebuilder, kyverno and gitlab
 
 <!-- - 📫 How to reach me: 
 - 😄 Pronouns: ...
