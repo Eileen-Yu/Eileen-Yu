@@ -1,7 +1,4 @@
----
-title: Empowering Kubebuilder - My GSoC 2023 Journey with Phase 2 Plugin
-categories: [tech]
----
+## Empowering Kubebuilder - My GSoC 2023 Journey with Phase 2 Plugin
 
 I am thrilled to have the opportunity to participate in the Google Summer of Code
 (GSoC) again this year with CNCF, as to continue my exploration in the cloud native field!
