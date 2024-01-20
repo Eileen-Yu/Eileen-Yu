@@ -8,7 +8,7 @@
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <div style="flex: 1; min-width: 0;">
-    <h3>Hi I'm Eileen 👋</h3>
+    <h3> Hi there, I'm Eileen <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="28"/></h3>
     <ul>
       <li>☃️ Currently braving the Boston winters.</li>
       <li>🌱 Deeply engaged in the Cloud Native ecosystem.</li>
