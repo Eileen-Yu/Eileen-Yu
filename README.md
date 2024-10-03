@@ -10,13 +10,13 @@
   <div style="flex: 1; min-width: 0;">
     <h3> Hi there, I'm Eileen <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="28"/></h3>
     <ul>
-      <li>☀ Currently soaking up the California sunshine.</li>
+      <li>☀ Atm soaking up the California sunshine.</li>
       <li>🌱 Deeply engaged in the Cloud Native ecosystem.</li>
       <li>🔍 Dedicated to creating scalable and robust systems with Go.</li>
       <li>👾 In my downtime, I enjoy working with C++ on kernel and network programming.</li>
       <li>🤯 Occasionally exploring Node.js and TypeScript in various projects.</li>
       <li>🧑‍🚀 Actively learning and growing with Kubernetes.</li>
-      <li>😉 Proud contributor to open-source, including work in GitLab and CNCF's Kyverno & Kubebuilder.</li>
+      <li>😉 Proud contributor to open-source CNCF projects.</li>
     </ul>
   </div>
 
