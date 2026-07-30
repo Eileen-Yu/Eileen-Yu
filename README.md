@@ -10,13 +10,12 @@
   <div style="flex: 1; min-width: 0;">
     <h3> Hi there, I'm Eileen <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="28"/></h3>
     <ul>
-      <li>☀ Atm soaking up the California sunshine.</li>
-      <li>🌱 Deeply engaged in the Cloud Native ecosystem.</li>
-      <li>🔍 Dedicated to creating scalable and robust systems with Go.</li>
-      <li>👾 In my downtime, I enjoy working with C++ on kernel and network programming.</li>
-      <li>🤯 Occasionally exploring Node.js and TypeScript in various projects.</li>
-      <li>🧑‍🚀 Actively learning and growing with Kubernetes.</li>
-      <li>😉 Proud contributor to open-source CNCF projects.</li>
+      <li>☁️ Building cloud-native platforms and distributed systems.</li>
+      <li>🛠️ Kubernetes operators, agent platforms, and control/data planes.</li>
+      <li>🤖 Durable workflows, runtime connectivity, and developer tooling.</li>
+      <li>☸️ Kubernetes, Dapr, and the CNCF ecosystem.</li>
+      <li>🔧 Distributed systems, networking, and platform engineering.</li>
+      <li>🌱 Open-source contributor and CNCF community member.</li>
     </ul>
   </div>
 
