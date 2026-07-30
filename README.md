@@ -14,7 +14,7 @@
       <li>🛠️ Kubernetes operators, agent platforms, and control/data planes.</li>
       <li>🤖 Durable workflows, runtime connectivity, and developer tooling.</li>
       <li>☸️ Kubernetes, Dapr, and the CNCF ecosystem.</li>
-      <li>🔧 Distributed systems, networking, and platform engineering.</li>
+      <li>🔧 Production reliability, networking, and platform engineering.</li>
       <li>🌱 Open-source contributor and CNCF community member.</li>
     </ul>
   </div>
