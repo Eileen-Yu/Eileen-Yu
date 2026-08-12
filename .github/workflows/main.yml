@@ -33,7 +33,7 @@ jobs:
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_limit: 8
-          plugin_languages_ignored: C++, TeX, CSS, EJS, HTML
+          plugin_languages_ignored: TeX, CSS, EJS, HTML
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 90
           plugin_languages_recent_load: 500
