@@ -30,6 +30,4 @@
 
 </div>
 
-<!-- stats
-<img src="https://github-readme-stats.vercel.app/api?username=Eileen-Yu&show_icons=true&theme=gotham" alt="Eileen-Yu's GitHub Stats" style="flex: 1; max-width: 350px; height: auto;" />
--->
+<img src="https://github-readme-stats-six-kappa-33.vercel.app/api?username=Eileen-Yu&show_icons=true&theme=gotham" alt="Eileen-Yu's GitHub Stats" style="flex: 1; max-width: 350px; height: auto;" />
